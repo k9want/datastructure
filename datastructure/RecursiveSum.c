@@ -12,7 +12,7 @@ int main(void) {
 	scanf_s("%d", &num); 
 	RecursiveSum(num);
 	printf("1부터 %d까지의 합 : %d \n", num, RecursiveSum(num));
-	printf("연동테스트 
+	printf("연동테스트 );
 	return 0;
 }
 
