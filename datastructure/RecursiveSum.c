@@ -8,11 +8,10 @@ int main(void) {
 	
 	int num ;
 
-	printf("정수 값을 입력하시오 ");
+	printf("정수 값을 입력하시오! ");
 	scanf_s("%d", &num); 
 	RecursiveSum(num);
 	printf("1부터 %d까지의 합 : %d \n", num, RecursiveSum(num));
-	printf("연동테스트 );
 	return 0;
 }
 
