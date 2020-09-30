@@ -8,10 +8,10 @@ int main(void) {
 	
 	int num ;
 
-	printf("Á¤¼ö °ªÀ» ÀÔ·ÂÇÏ½Ã¿À! ");
+	printf("ì •ìˆ˜ ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤ ");
 	scanf_s("%d", &num); 
 	RecursiveSum(num);
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕ : %d \n", num, RecursiveSum(num));
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ í•© : %d \n", num, RecursiveSum(num));
 	return 0;
 }
 
